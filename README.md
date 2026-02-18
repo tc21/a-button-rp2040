@@ -22,5 +22,5 @@ Update the config in source code: `src/main.rs`: Lines 30 to 34. You can set whi
 By default this package is configured to build a uf2 file. Change the build command in `.cargo/config.toml`
 
 ```sh
-cargo run <output-file.uf2>
+cargo run [--release] <output-file.uf2>
 ```
